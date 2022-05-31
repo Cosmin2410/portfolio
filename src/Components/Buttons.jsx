@@ -4,7 +4,7 @@ const Buttons = () => {
   return (
     <div>
       <button class="blob-btn">
-        Blob Buttons
+        Download Resume
         <span class="blob-btn__inner">
           <span class="blob-btn__blobs">
             <span class="blob-btn__blob"></span>

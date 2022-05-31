@@ -1,4 +1,6 @@
 import Buttons from './Components/Buttons';
+import ParticlesBg from './Components/ParticlesBg';
+import MainPage from './Components/MainPage';
 
 function App() {
   const me = {
@@ -29,8 +31,13 @@ function App() {
   return (
     <div>
       <Buttons />
+      <ParticlesBg />
+      <MainPage />
     </div>
   );
 }
 
 export default App;
+
+// npm install react-tsparticles
+// npm i tsparticles
