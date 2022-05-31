@@ -1,12 +1,7 @@
 import React from 'react';
 
 const MainPage = () => {
-  return (
-    <div>
-      <img src="images/logo.svg" alt="logo" width="100" />
-      <h1>Lorem Ipum</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default MainPage;
