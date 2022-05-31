@@ -1,0 +1,29 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+$main-font: 'League Spartan', sans-serif;
+$tag-font: 'La Belle Aurore', cursive;
+$title-font: 'Libre Baskerville', serif;
+
+// Colors
+
+$main-bg: #1c1d25;
+$second-bg: #232323;
+$blue: #5c81e8;
+$orange: #f06348;
+$white: #ffff;
+
+.test {
+  width: 10rem;
+  height: 5rem;
+  border: 1px solid $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 7rem;
+  background-color: $orange;
+}

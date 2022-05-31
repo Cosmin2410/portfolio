@@ -1,3 +1,5 @@
+import Buttons from './Components/Buttons';
+
 function App() {
   const me = {
     name: 'Cosmin Nae',
@@ -26,12 +28,7 @@ function App() {
 
   return (
     <div>
-      <img src="images/logo.svg" />
-      <p>{me.name}</p>
-      <p>{me.age}</p>
-      <p>{me.learned}</p>
-      <p>{me.passionate}</p>
-      <p>{me.hobbies}</p>
+      <Buttons />
     </div>
   );
 }
