@@ -1,106 +1,60 @@
-$borderW: 2px;
-
-.blob-btn {
-  $numOfBlobs: 4;
-  z-index: 1;
-  position: relative;
-  padding: 10px 10px;
-  margin-bottom: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  color: $blue;
-  font-size: 14px;
-  font-weight: 400;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  transition: color 0.5s;
-  cursor: pointer;
-  border-radius: 30px;
-
-  &:before {
-    content: '';
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border: $borderW solid $blue;
-    border-radius: 30px;
-  }
-
-  &:after {
-    content: '';
-    z-index: -2;
-    position: absolute;
-    left: $borderW * 1.5;
-    top: $borderW * 1.5;
-    width: 100%;
-    height: 100%;
-
-    transition: all 0.3s 0.2s;
-    border-radius: 30px;
-  }
-
-  &:hover {
-    color: $white;
-    border-radius: 30px;
-
-    &:after {
-      transition: all 0.3s;
-      left: 0;
-      top: 0;
-      border-radius: 30px;
-    }
-  }
-
-  &__inner {
-    z-index: -1;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    background: $white;
-  }
-
-  &__blobs {
+.btn-component {
+  .blob-btn {
+    margin: 0;
+    padding: 0;
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 15px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 13em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
     position: relative;
-    display: block;
-    height: 100%;
-    filter: url('#goo');
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+
+    span {
+      position: absolute;
+      width: 25%;
+      height: 100%;
+      background-color: var(--c);
+      transform: translateY(150%);
+      border-radius: 50%;
+      left: calc((var(--n) - 1) * 25%);
+      transition: 0.5s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
+    }
   }
 
-  &__blob {
-    position: absolute;
-    top: $borderW;
-    width: 18rem / $numOfBlobs;
-    height: 100%;
-    background: $blue;
-    border-radius: 100%;
-    transform: translate3d(0, 150%, 0) scale(1.7);
-    transition: transform 0.45s;
+  button:hover {
+    color: black;
+  }
 
-    @supports (filter: url('#goo')) {
-      transform: translate3d(0, 150%, 0) scale(1.4);
-    }
+  button:hover span {
+    transform: translateY(0) scale(2);
+  }
 
-    @for $i from 1 through $numOfBlobs {
-      &:nth-child(#{$i}) {
-        left: ($i - 1) * (120% / $numOfBlobs);
-        transition-delay: ($i - 1) * 0.08s;
-      }
-    }
+  button span:nth-child(1) {
+    --n: 1;
+  }
 
-    .blob-btn:hover & {
-      transform: translateZ(0) scale(1.7);
+  button span:nth-child(2) {
+    --n: 2;
+  }
 
-      @supports (filter: url('#goo')) {
-        transform: translateZ(0) scale(1.4);
-      }
-    }
+  button span:nth-child(3) {
+    --n: 3;
+  }
+
+  button span:nth-child(4) {
+    --n: 4;
   }
 }

@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
-  const [flip, setFlip] = useState(false);
+  const [flip, setFlip] = useState(true);
 
   const openMenu = () => {
     setFlip((prevFlip) => !flip);
@@ -34,6 +35,11 @@ const Header = () => {
         <p>Skills</p>
         <p>Projects</p>
         <p>Contact</p>
+
+        <div className="phone-nav-contact">
+          <FaGithub />
+          <FaLinkedin />
+        </div>
       </div>
     </header>
   );

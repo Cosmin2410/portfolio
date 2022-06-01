@@ -14,8 +14,8 @@ body {
   font-family: $main-font;
 }
 
-@import './btns';
-
 @import './Pages/mainPage';
 
 @import './header';
+
+@import './btns';
