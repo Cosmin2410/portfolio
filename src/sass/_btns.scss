@@ -2,29 +2,28 @@
   .blob-btn {
     margin: 0;
     padding: 0;
-    --c: goldenrod;
-    color: var(--c);
-    font-size: 15px;
-    border: 0.3em solid var(--c);
+    color: $blue;
+    font-size: 0.8rem;
+    border: 0.3em solid $blue;
     border-radius: 0.5em;
     width: 13em;
     height: 3em;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-    letter-spacing: 0.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-align: center;
     position: relative;
     overflow: hidden;
     z-index: 1;
     transition: 0.5s;
-    margin: 1em;
+    background-color: $main-bg;
+    cursor: pointer;
 
     span {
       position: absolute;
       width: 25%;
       height: 100%;
-      background-color: var(--c);
+      background-color: $blue;
       transform: translateY(150%);
       border-radius: 50%;
       left: calc((var(--n) - 1) * 25%);
@@ -35,7 +34,7 @@
   }
 
   button:hover {
-    color: black;
+    color: $main-bg;
   }
 
   button:hover span {

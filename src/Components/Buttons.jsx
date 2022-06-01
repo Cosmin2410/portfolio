@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Buttons = () => {
+const Buttons = ({ text }) => {
   return (
-    <div>
+    <div className="btn-component">
       <button className="blob-btn">
-        download resume
+        {text}
         <span></span>
         <span></span>
         <span></span>

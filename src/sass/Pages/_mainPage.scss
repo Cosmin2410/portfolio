@@ -1,0 +1,63 @@
+.main-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+  padding: 0 1rem;
+
+  .presentaion {
+    .about-resume {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .hello {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    .job {
+      margin: 1.5rem 0;
+      font-family: $title-font;
+      font-size: 1.4rem;
+    }
+  }
+
+  .me-object {
+    background-color: $second-bg;
+    padding: 2rem;
+    border-radius: 10px;
+    p {
+      margin-bottom: 0.7rem;
+      color: rgb(189, 189, 189);
+
+      span {
+        color: $white;
+      }
+    }
+  }
+}
+
+@media (max-width: 59.375em) {
+  .main-page {
+    flex-direction: column;
+    text-align: center;
+
+    .me-object {
+      margin-top: 3rem;
+      text-align: start;
+    }
+  }
+}
+
+@media (max-width: 28.75em) {
+  .main-page {
+    .me-object {
+      font-size: 12px;
+    }
+  }
+}
