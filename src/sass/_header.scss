@@ -279,7 +279,11 @@ header {
 //
 
 .area {
-  // position: absolute;
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+  left: 0;
+  right: 0;
 }
 
 .circles {
@@ -298,17 +302,18 @@ header {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: #5c81e838;
+  background: #5c81e831;
   animation: animate 25s linear infinite;
-  // bottom: -150px;
-  top: 50rem;
+  // 25
+  bottom: -150px;
+  // top: 0rem;
 }
 
 .circles li:nth-child(1) {
   left: 25%;
   width: 80px;
   height: 80px;
-  animation-delay: 0s;
+  animation-delay: 1s;
 }
 
 .circles li:nth-child(2) {
@@ -342,9 +347,9 @@ header {
 }
 
 .circles li:nth-child(6) {
-  left: 75%;
-  width: 110px;
-  height: 110px;
+  left: 25%;
+  width: 10px;
+  height: 10px;
   animation-delay: 3s;
 }
 
@@ -352,7 +357,7 @@ header {
   left: 35%;
   width: 150px;
   height: 150px;
-  animation-delay: 7s;
+  animation-delay: 0s;
 }
 
 .circles li:nth-child(8) {
@@ -383,11 +388,63 @@ header {
   0% {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 1;
-    border-radius: 0;
+    border-radius: 5%;
   }
   100% {
     transform: translateY(0) rotate(0deg);
     opacity: 0;
     border-radius: 50%;
+  }
+}
+
+@media (max-width: 59.375em) {
+  .circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 1s;
+    display: none;
+  }
+
+  .circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+    display: none;
+  }
+
+  .circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+    display: none;
+  }
+
+  .circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    display: none;
+  }
+
+  .circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    display: none;
+  }
+
+  .circles li:nth-child(6) {
+    left: 25%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 3s;
+    display: none;
   }
 }
