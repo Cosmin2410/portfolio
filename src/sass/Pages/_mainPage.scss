@@ -25,12 +25,78 @@
       font-family: $title-font;
       font-size: 1.4rem;
     }
+
+    .social {
+      display: flex;
+      font-size: 2rem;
+      gap: 1rem;
+      margin-top: 2rem;
+
+      svg {
+        cursor: pointer;
+        color: white;
+      }
+
+      .github svg:hover {
+        color: #6e5494;
+      }
+
+      .linkedin svg:hover {
+        color: #0a66c2;
+      }
+
+      a {
+        font-size: 1.8rem;
+        text-decoration: none;
+        display: flex;
+        width: 3.2rem;
+        height: 3.2rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: 0.5s ease all;
+        svg {
+          font-size: 2rem;
+          color: $white;
+          z-index: 1;
+          will-change: transform;
+          transform-style: preserve-3d;
+          transition: 0.5s ease all;
+        }
+      }
+      a::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        background-color: rgb(59, 59, 59);
+        transform: scale3d(1, 1, 1);
+        transform-origin: 50% 50%;
+        will-change: transform;
+        transform-style: preserve-3d;
+        transition: 0.25s ease-out;
+      }
+      a:hover::after {
+        transform: scale3d(0, 0, 0);
+        transition: 0.25s ease-in;
+      }
+
+      a:hover {
+        svg {
+          transform: scale3d(1.2, 1.2, 1);
+        }
+      }
+    }
   }
 
   .me-object {
     background-color: $second-bg;
     padding: 2rem;
     border-radius: 10px;
+    box-shadow: 0 0 8px black;
     p {
       margin-bottom: 0.7rem;
       color: rgb(189, 189, 189);
@@ -46,6 +112,10 @@
   .main-page {
     flex-direction: column;
     text-align: center;
+
+    .social {
+      justify-content: center;
+    }
 
     .me-object {
       margin-top: 3rem;

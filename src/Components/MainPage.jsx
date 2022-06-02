@@ -1,5 +1,6 @@
 import React from 'react';
 import Buttons from './Buttons';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const MainPage = () => {
   return (
@@ -11,6 +12,14 @@ const MainPage = () => {
         <div className="about-resume">
           <Buttons text={'Download Resume'} />
           <Buttons text={'About Me'} />
+        </div>
+        <div className="social">
+          <a href="#" className="github">
+            <FaGithub />
+          </a>
+          <a href="#" className="linkedin">
+            <FaLinkedin />
+          </a>
         </div>
       </div>
 
