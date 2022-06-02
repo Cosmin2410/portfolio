@@ -281,7 +281,7 @@ header {
 .area {
   position: absolute;
   height: 100%;
-  top: 0rem;
+  top: -10rem;
   left: 0;
   right: 0;
 }
@@ -304,9 +304,8 @@ header {
   height: 20px;
   background: #5c81e831;
   animation: animate 25s linear infinite;
-  // 25
   bottom: -150px;
-  // top: 0rem;
+  // top: 20rem;
 }
 
 .circles li:nth-child(1) {
@@ -437,14 +436,6 @@ header {
     width: 20px;
     height: 20px;
     animation-delay: 0s;
-    display: none;
-  }
-
-  .circles li:nth-child(6) {
-    left: 25%;
-    width: 10px;
-    height: 10px;
-    animation-delay: 3s;
     display: none;
   }
 }
