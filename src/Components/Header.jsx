@@ -10,9 +10,6 @@ const Header = () => {
 
   return (
     <header>
-      {/*  */}
-      {/*  */}
-      {/*  */}
       <div class="area">
         <ul class="circles">
           <li></li>
@@ -27,10 +24,6 @@ const Header = () => {
           <li></li>
         </ul>
       </div>
-
-      {/*  */}
-      {/*  */}
-      {/*  */}
       <div className="logo">
         <img src="images/logo.svg" alt="logo" width="100" className="logo" />
       </div>

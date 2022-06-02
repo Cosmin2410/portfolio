@@ -1,6 +1,8 @@
 .skills-container {
   text-align: center;
   padding: 0 1rem;
+  background-color: $second-bg;
+  position: relative;
 
   h2 {
     font-size: 2.5rem;
@@ -14,11 +16,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+
     svg {
       font-size: 7rem;
     }
 
-    svg:first-child {
+    svg:nth-child(1) {
       color: #e34c26;
     }
 
@@ -73,6 +76,7 @@
     }
     .skills {
       flex-wrap: wrap;
+
       .skill-one {
         left: 10%;
         top: 0rem;
@@ -98,13 +102,48 @@
   }
 }
 
-// @media (max-width: 31.25em) {
-//   .skills-container {
-//     .skills {
-//       //   width: 10rem;
-//       svg {
-//         font-size: 3.5rem;
-//       }
-//     }
-//   }
-// }
+.wave-top {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+    transform: rotateY(180deg);
+  }
+  .shape-fill {
+    fill: #232323;
+    // fill: $main-bg;
+  }
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  // z-index: -1;
+  transform: rotate(180deg);
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+  }
+
+  .shape-fill {
+    fill: $main-bg;
+  }
+}

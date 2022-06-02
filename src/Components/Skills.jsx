@@ -4,6 +4,19 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 const Skills = () => {
   return (
     <div className="skills-container">
+      <div className="wave-top">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
       <h2>My SkillSet</h2>
 
       <div className="skills">
@@ -19,8 +32,19 @@ const Skills = () => {
         <p className="float-skills skill-five">API</p>
       </div>
 
-      <p></p>
-      <p></p>
+      <div className="wave-bottom">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </div>
   );
 };
