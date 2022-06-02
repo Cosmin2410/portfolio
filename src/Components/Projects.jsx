@@ -18,8 +18,8 @@ const Projects = () => {
 
             <ul>
               <li>
-                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js,Cloud
-                Computing
+                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Cloud
+                Computing, GitHub, GIT
               </li>
               <li>Role: Front-End Developer</li>
               <li>Context: Website Creation from ground up</li>
@@ -32,13 +32,13 @@ const Projects = () => {
           </div>
 
           <div className="project-image">
-            <img src="images/acz.png" height="500" width="500" />
+            <img src="images/acz.png" width="640" />
           </div>
         </div>
 
         <div className="project">
           <div className="project-description">
-            <h3>Service Auto</h3>
+            <h3>Auto Service and Repair </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
               laborum animi. Sit, minus odit. Reprehenderit assumenda optio in
@@ -48,7 +48,7 @@ const Projects = () => {
             <ul>
               <li>
                 Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Cloud
-                Computing
+                Computing, GitHub, GIT
               </li>
               <li>Role: Front-End Developer</li>
               <li>Context: Website Creation from ground up</li>
@@ -61,7 +61,7 @@ const Projects = () => {
           </div>
 
           <div className="project-image">
-            <img src="images/as.png" height="350" width="550" />
+            <img src="images/as.png" width="640" />
           </div>
         </div>
 
@@ -75,7 +75,10 @@ const Projects = () => {
             </p>
 
             <ul>
-              <li>Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js</li>
+              <li>
+                Technologies used: React, SASS , NPM, API, Stripe.js, Auth0,
+                Commerce.js, GitHub, GIT
+              </li>
               <li>Role: Front-End Developer</li>
               <li>Context: Personal Project</li>
             </ul>
@@ -87,7 +90,7 @@ const Projects = () => {
           </div>
 
           <div className="project-image">
-            <img src="images/store.png" height="350" width="550" />
+            <img src="images/store.png" width="640" />
           </div>
         </div>
       </div>

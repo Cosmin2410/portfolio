@@ -31,11 +31,13 @@
 
         li {
           margin-bottom: 0.7rem;
+          line-height: 1.5rem;
         }
       }
 
       p {
         margin-top: 3rem;
+        line-height: 1.2rem;
       }
 
       .project-btn {
@@ -50,8 +52,8 @@
       img {
         border-radius: 10px;
         object-fit: cover;
-        max-width: 100%;
-        height: auto;
+        max-width: 550px;
+        height: 350px;
       }
     }
   }
@@ -64,13 +66,19 @@
 
       .project-description {
         margin-right: 0;
-        padding-right: 0;
+        padding-right: 3rem;
+
+        .project-btn {
+          justify-content: center;
+        }
       }
 
       .project-image {
         z-index: 2;
         img {
-          margin-bottom: -1.5rem;
+          margin-bottom: 0.5rem;
+          max-width: 100%;
+          height: 350px;
         }
       }
     }

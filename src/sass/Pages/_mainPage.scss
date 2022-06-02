@@ -126,8 +126,13 @@
 
 @media (max-width: 28.75em) {
   .main-page {
+    .about-resume {
+      flex-direction: column;
+    }
+
     .me-object {
-      font-size: 12px;
+      font-size: 14px;
+      padding: 1rem;
     }
   }
 }
