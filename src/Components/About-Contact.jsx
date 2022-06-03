@@ -1,10 +1,10 @@
 import React from 'react';
+import { FaPhoneAlt, FaRegEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 const AboutContact = () => {
   return (
     <div className="about-contact">
       <div className="about">
-        <h2 className="bg-about">About</h2>
         <h3>About Me.</h3>
         <p>Front-End Developer</p>
         <p>
@@ -14,6 +14,15 @@ const AboutContact = () => {
           ipsa consequatur impedit rerum error aspernatur accusantium quod
           explicabo voluptates! Soluta, ex qui!
         </p>
+      </div>
+
+      <div className="contact">
+        <h2 className="bg-title">Contact</h2>
+
+        <h3>Let's talk.</h3>
+        <FaPhoneAlt />
+        <FaRegEnvelope />
+        <FaWhatsapp />
       </div>
     </div>
   );

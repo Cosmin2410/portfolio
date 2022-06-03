@@ -1,0 +1,46 @@
+.about-contact {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  position: absolute;
+  top: 2rem;
+  right: 14rem;
+  left: 14rem;
+  z-index: 5;
+  border-radius: 5px;
+
+  .about {
+    width: 50%;
+    padding: 3rem;
+    background-color: #ebebeb;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: $main-bg;
+  }
+
+  .contact {
+    width: 50%;
+    padding: 3rem;
+    background-color: $second-bg;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+
+    .bg-title {
+      font-size: 13rem;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
