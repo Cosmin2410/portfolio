@@ -20,7 +20,7 @@ const Skills = () => {
       <h2>My SkillSet</h2>
 
       <div className="skills">
-        <FaHtml5 />
+        <FaHtml5 className="test" />
         <FaCss3Alt />
         <FaJsSquare />
         <FaReact />

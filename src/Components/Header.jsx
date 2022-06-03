@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
     <header>
-      <div class="area">
-        <ul class="circles">
+      <div className="area">
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>
@@ -51,8 +51,23 @@ const Header = () => {
         <p>Contact</p>
 
         <div className="phone-nav-contact">
-          <FaGithub />
-          <FaLinkedin />
+          <a
+            href="https://github.com/Cosmin2410"
+            className="github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/cosmin-nae-39786222b/"
+            className="linkedin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </header>

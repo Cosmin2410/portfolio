@@ -26,8 +26,14 @@ const Projects = () => {
             </ul>
 
             <div className="project-btn">
-              <Buttons text={'Visit Website'} />
-              <Buttons text={'View Code'} />
+              <Buttons
+                text={'Visit Website'}
+                href={'https://amintiricuzambete.ro/'}
+              />
+              <Buttons
+                text={'View Code'}
+                href={'https://github.com/Cosmin2410/Magic-Mirror-WebSite'}
+              />
             </div>
           </div>
 
@@ -55,8 +61,14 @@ const Projects = () => {
             </ul>
 
             <div className="project-btn">
-              <Buttons text={'Visit Website'} />
-              <Buttons text={'View Code'} />
+              <Buttons
+                text={'Visit Website'}
+                href={'https://ascompactservice.ro/'}
+              />
+              <Buttons
+                text={'View Code'}
+                href={'https://github.com/Cosmin2410/Car-Service-Project'}
+              />
             </div>
           </div>
 
@@ -84,8 +96,14 @@ const Projects = () => {
             </ul>
 
             <div className="project-btn">
-              <Buttons text={'Visit Website'} />
-              <Buttons text={'View Code'} />
+              <Buttons
+                text={'Visit Website'}
+                href={'https://amazing-gingersnap-e85241.netlify.app/'}
+              />
+              <Buttons
+                text={'View Code'}
+                href={'https://github.com/Cosmin2410/ecommerce-project'}
+              />
             </div>
           </div>
 

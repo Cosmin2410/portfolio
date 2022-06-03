@@ -76,11 +76,12 @@ header {
 
   .phone-nav-contact {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     svg {
       cursor: pointer;
       color: $white;
       transition: color 300ms ease;
+      font-size: 3rem;
     }
 
     svg:hover:first-child {

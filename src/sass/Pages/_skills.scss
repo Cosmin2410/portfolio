@@ -19,22 +19,41 @@
 
     svg {
       font-size: 7rem;
+      animation-name: floating;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
     }
 
     svg:nth-child(1) {
       color: #e34c26;
+      animation-duration: 4s;
     }
 
     svg:nth-child(2) {
       color: #2965f1;
+      animation-duration: 4.5s;
     }
 
     svg:nth-child(3) {
       color: #f0db4f;
+      animation-duration: 5s;
     }
 
     svg:nth-child(4) {
       color: #61dbfb;
+      animation-duration: 5.5s;
+    }
+
+    @keyframes floating {
+      from {
+        transform: translate(0, 0px);
+      }
+      65% {
+        transform: translate(0, 15px);
+      }
+      to {
+        transform: translate(0, -0px);
+      }
     }
 
     .float-skills {

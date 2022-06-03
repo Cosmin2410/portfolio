@@ -10,14 +10,24 @@ const MainPage = () => {
         <h1>Cosmin Nae</h1>
         <p className="job">Front-End Delevoper</p>
         <div className="about-resume">
-          <Buttons text={'Download Resume'} />
+          <Buttons text={'Download Resume'} href={'#'} />
           <Buttons text={'About Me'} />
         </div>
         <div className="social">
-          <a href="#" className="github">
+          <a
+            href="https://github.com/Cosmin2410"
+            className="github"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub />
           </a>
-          <a href="#" className="linkedin">
+          <a
+            href="https://www.linkedin.com/in/cosmin-nae-39786222b/"
+            className="linkedin"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedin />
           </a>
         </div>
