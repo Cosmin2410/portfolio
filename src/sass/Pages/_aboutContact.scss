@@ -1,46 +1,117 @@
 .about-contact {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90%;
   position: absolute;
   top: 2rem;
-  right: 14rem;
-  left: 14rem;
+  // right: 17rem;
+  // left: 17rem;
+
+  width: 0rem;
+  // margin: 0 auto;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+
   z-index: 5;
-  border-radius: 5px;
 
   .about {
     width: 50%;
     padding: 3rem;
     background-color: #ebebeb;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     color: $main-bg;
+    overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      margin: 1.5rem 0;
+      font-family: $title-font;
+      font-weight: 100;
+    }
+
+    p {
+      max-width: 25rem;
+      line-height: 1.3;
+    }
+
+    span {
+      color: $blue;
+    }
+
+    .bg-about {
+      font-size: 13rem;
+      color: rgba(0, 0, 0, 0.11);
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
   }
 
   .contact {
     width: 50%;
     padding: 3rem;
     background-color: $second-bg;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: start;
 
-    .bg-title {
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+    }
+
+    .contact-side {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 1rem;
+      width: 100%;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4rem;
+
+        svg {
+          font-size: 2rem;
+        }
+      }
+
+      span {
+        color: $blue;
+      }
+    }
+
+    .bg-contact {
       font-size: 13rem;
-      color: white;
+      color: rgba(255, 255, 255, 0.137);
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 1rem;
     }
   }
 }
