@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <div className="wave-top">
         <svg
           data-name="Layer 1"

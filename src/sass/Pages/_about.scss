@@ -1,0 +1,139 @@
+.about {
+  background-color: $second-bg;
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .description-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+
+    .description-about {
+      max-width: 30rem;
+      text-align: start;
+
+      h3 {
+        font-size: 3rem;
+      }
+
+      h4 {
+        font-family: $title-font;
+        font-size: 1.4rem;
+        margin: 1.3rem 0;
+        font-weight: 100;
+      }
+
+      span {
+        color: $blue;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.3;
+      }
+    }
+
+    .desk {
+      svg {
+        width: 20rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 54.375em) {
+  .about2 {
+    height: 45rem;
+    .description-desk {
+      flex-direction: column;
+
+      .description-about {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 22.375em) {
+  .description-desk {
+    width: 20rem;
+  }
+  .desk {
+    svg {
+      width: 10rem;
+    }
+  }
+}
+
+.about-svg-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+
+  .shape-fill {
+    fill: $main-bg;
+  }
+}
+//
+//
+
+.about-svg-bot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+
+  .shape-fill {
+    fill: $main-bg;
+  }
+}
+
+#smoke-1 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 6s ease infinite;
+}
+
+#smoke-2 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 6s 0.5s ease infinite;
+}
+
+@keyframes smoke {
+  0% {
+    stroke-dasharray: 0, 10;
+  }
+  50% {
+    stroke-dasharray: 10, 0;
+  }
+  100% {
+    stroke-dasharray: 10, 0;
+    opacity: 0;
+  }
+}

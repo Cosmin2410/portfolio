@@ -13,7 +13,7 @@ header {
     gap: 1.5rem;
     font-size: 1.5rem;
 
-    p {
+    a {
       cursor: pointer;
       transition: opacity 200ms ease;
       opacity: 0.7;
@@ -21,7 +21,17 @@ header {
       position: relative;
     }
 
-    p:after {
+    a {
+      cursor: pointer;
+      transition: opacity 200ms ease;
+      opacity: 0.7;
+      display: block;
+      position: relative;
+      color: white;
+      text-decoration: none;
+    }
+
+    a:after {
       bottom: -5px;
       content: '';
       display: block;
@@ -38,12 +48,12 @@ header {
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
     }
-    p:hover:after {
+    a:hover:after {
       width: 100%;
       left: 0;
     }
 
-    p:hover {
+    a:hover {
       opacity: 1;
     }
   }
@@ -284,6 +294,7 @@ header {
   top: -10rem;
   left: 0;
   right: 0;
+  bottom: 0px;
 }
 
 .circles {

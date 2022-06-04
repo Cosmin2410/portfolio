@@ -12,7 +12,23 @@ body {
   background-color: $main-bg;
   color: $white;
   font-family: $main-font;
+}
+
+.all {
   height: 100%;
+}
+
+.all-bg {
+  background-color: rgba(0, 0, 0, 0.61);
+  position: absolute;
+  top: 0;
+  bottom: -270rem;
+  left: 0;
+  right: 0;
+
+  z-index: 4;
+  // height: 100%;
+  // width: 100%;
 }
 
 @import './Pages/mainPage';
@@ -27,4 +43,6 @@ body {
 
 @import './Pages/footer';
 
-@import './Pages/aboutContact';
+@import './Pages/about';
+
+@import './Pages/contact';

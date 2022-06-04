@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 const Projects = () => {
   return (
     <div className="projects-page">
-      <h2>My Projects</h2>
+      <h2 id="projects">My Projects</h2>
 
       <div className="all-projects">
         <div className="project">

@@ -9,9 +9,8 @@ const MainPage = () => {
         <p className="hello">Hello I'm,</p>
         <h1>Cosmin Nae</h1>
         <p className="job">Front-End Delevoper</p>
-        <div className="about-resume">
+        <div className="resume-btn">
           <Buttons text={'Download Resume'} href={'#'} />
-          <Buttons text={'About Me'} />
         </div>
         <div className="social">
           <a

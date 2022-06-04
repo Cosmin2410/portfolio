@@ -1,0 +1,60 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $second-bg;
+  max-width: fit-content;
+  padding: 3rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 5rem;
+
+  h1 {
+    margin-bottom: 1.54rem;
+  }
+  .contact-ways {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    gap: 2rem;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        color: $blue;
+        margin: 0 0.6rem;
+      }
+
+      svg {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 29.375em) {
+  .contact-page {
+    .contact-ways {
+      max-width: 15rem;
+      .contact-side {
+        margin-bottom: 1.5rem;
+      }
+      a {
+        flex-direction: column;
+
+        span {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}
