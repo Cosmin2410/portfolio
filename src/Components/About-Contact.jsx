@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPhoneAlt, FaRegEnvelope, FaLinkedin } from 'react-icons/fa';
+import { AiOutlineClose } from 'react-icons/ai';
 
 const AboutContact = () => {
   return (
@@ -24,24 +25,27 @@ const AboutContact = () => {
 
         <div className="contact-side">
           <a href="tel:+40763411967">
-            Call me on:&nbsp;<span>0763 411 967 </span>
-            &nbsp;&nbsp;&nbsp; <FaPhoneAlt />
+            Call me:<span>0763 411 967 </span>
+            <FaPhoneAlt />
           </a>
         </div>
 
         <div className="contact-side">
           <a href="mailto:cosminnae00@yahoo.com">
-            Mail me at:&nbsp;<span>cosminne00@yahoo.com </span>
-            &nbsp;&nbsp;&nbsp;
+            Mail me:<span>cosminne00@yahoo.com </span>
             <FaRegEnvelope />
           </a>
         </div>
 
         <div className="contact-side">
-          <a href="https://www.linkedin.com/feed/">
-            Message me on Linkedin at: <span>Cosmin Nae </span>
+          <a href="https://www.linkedin.com/in/cosmin-nae-39786222b/">
+            Message me:<span>Cosmin Nae </span>
             <FaLinkedin />
           </a>
+        </div>
+
+        <div className="close">
+          <AiOutlineClose />
         </div>
       </div>
     </div>
