@@ -1,18 +1,41 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Buttons from './Buttons';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MainPage = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 0,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 0,
+    });
+  }, []);
+
   return (
     <div className="main-page">
       <div className="presentaion">
         <p className="hello">Hello I'm,</p>
-        <h1>Cosmin Nae</h1>
-        <p className="job">Front-End Delevoper</p>
-        <div className="resume-btn">
+        <div className="box">
+          <div className="title">
+            <span className="block"></span>
+            <h1>
+              Cosmin Nae<span></span>
+            </h1>
+          </div>
+
+          <div className="role">
+            <div className="block"></div>
+            <p>Front-End Developer</p>
+          </div>
+        </div>
+
+        <div className="resume-btn" data-aos="fade-in">
           <Buttons text={'Download Resume'} href={'#'} />
         </div>
-        <div className="social">
+        <div className="social" data-aos="fade-in" data-aos-delay="500">
           <a
             href="https://github.com/Cosmin2410"
             className="github"

@@ -1,7 +1,18 @@
-import React from 'react';
 import Desk from './Desk';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 0,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, []);
+
   return (
     <div className="about">
       <div className="about-svg-top">
@@ -20,9 +31,9 @@ const About = () => {
 
       <div className="description-desk" id="about">
         <div className="description-about">
-          <h3>About Me.</h3>
-          <h4>Front-End Developer</h4>
-          <p>
+          <h3 data-aos="fade-right">About Me.</h3>
+          <h4 data-aos="fade-left">Front-End Developer</h4>
+          <p data-aos="fade-in" data-aos-offset="200">
             Lorem ipsum dolor sit amet consectetur <span>adipisicing</span>
             elit.
             <span>adipisicing similique, delectus repellat ut</span> , doloribus

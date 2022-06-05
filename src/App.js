@@ -23,4 +23,6 @@ function App() {
   );
 }
 
+// npm i aos --save
+
 export default App;

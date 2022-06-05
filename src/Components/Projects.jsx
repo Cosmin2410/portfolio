@@ -1,13 +1,24 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Buttons from './Buttons';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 0,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, []);
+
   return (
     <div className="projects-page">
       <h2 id="projects">My Projects</h2>
 
       <div className="all-projects">
-        <div className="project">
+        <div className="project" data-aos="fade-in" data-aos-once="true">
           <div className="project-description">
             <h3>Magic Mirror</h3>
             <p>
@@ -25,7 +36,11 @@ const Projects = () => {
               <li>Context: Website Creation from ground up</li>
             </ul>
 
-            <div className="project-btn">
+            <div
+              className="project-btn"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
               <Buttons
                 text={'Visit Website'}
                 href={'https://amintiricuzambete.ro/'}
@@ -42,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project">
+        <div className="project" data-aos="fade-in" data-aos-once="true">
           <div className="project-description">
             <h3>Auto Service and Repair </h3>
             <p>
@@ -60,7 +75,11 @@ const Projects = () => {
               <li>Context: Website Creation from ground up</li>
             </ul>
 
-            <div className="project-btn">
+            <div
+              className="project-btn"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
               <Buttons
                 text={'Visit Website'}
                 href={'https://ascompactservice.ro/'}
@@ -77,7 +96,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project">
+        <div className="project" data-aos="fade-in" data-aos-once="true">
           <div className="project-description">
             <h3>Online Store</h3>
             <p>
@@ -95,7 +114,11 @@ const Projects = () => {
               <li>Context: Personal Project</li>
             </ul>
 
-            <div className="project-btn">
+            <div
+              className="project-btn"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
               <Buttons
                 text={'Visit Website'}
                 href={'https://amazing-gingersnap-e85241.netlify.app/'}
@@ -107,7 +130,11 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-image">
+          <div
+            className="project-image"
+            data-aos="fade-in"
+            data-aos-once="true"
+          >
             <img src="images/store.png" width="640" />
           </div>
         </div>

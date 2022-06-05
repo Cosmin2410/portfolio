@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 
 const Skills = () => {
@@ -20,7 +19,7 @@ const Skills = () => {
       <h2>My SkillSet</h2>
 
       <div className="skills">
-        <FaHtml5 className="test" />
+        <FaHtml5 />
         <FaCss3Alt />
         <FaJsSquare />
         <FaReact />

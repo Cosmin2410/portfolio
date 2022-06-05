@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HashLink } from 'react-router-hash-link';
+import PhoneNav from './PhoneNav';
 
 const Header = () => {
   return (
@@ -36,6 +36,10 @@ const Header = () => {
         <HashLink smooth to="#contact">
           Contact
         </HashLink>
+      </div>
+
+      <div className="phone-nav">
+        <PhoneNav />
       </div>
     </header>
   );
