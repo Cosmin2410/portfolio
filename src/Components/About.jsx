@@ -31,8 +31,8 @@ const About = () => {
 
       <div className="description-desk" id="about">
         <div className="description-about">
-          <h3 data-aos="fade-right">About Me.</h3>
-          <h4 data-aos="fade-left">Front-End Developer</h4>
+          <h3 data-aos="fade-down">About Me.</h3>
+          <h4>Front-End Developer</h4>
           <p data-aos="fade-in" data-aos-offset="200">
             Lorem ipsum dolor sit amet consectetur <span>adipisicing</span>
             elit.
