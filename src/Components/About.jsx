@@ -34,13 +34,17 @@ const About = () => {
           <h3 data-aos="fade-down">About Me.</h3>
           <h4>Front-End Developer</h4>
           <p data-aos="fade-in" data-aos-offset="200">
-            Lorem ipsum dolor sit amet consectetur <span>adipisicing</span>
-            elit.
-            <span>adipisicing similique, delectus repellat ut</span> , doloribus
-            id incidunt distinctio eveniet deserunt eaque ipsam et aperiam
-            suscipit, ex labore maxime ipsa <span>adipisicing</span> impedit
-            rerum error aspernatur accusantium quod explicabo voluptates!
-            Soluta, ex qui!
+            I'm Nae Cosmin, a 21 year old Romanian
+            <span> Front-End Developer</span>.
+            <span> I love buildig stuff on the web </span>
+            using various technologies.I always push my skills to the limit and
+            give 110% on every project.
+            <br />
+            <br />I also love to <span> resolve programming problems </span>,
+            create good looking <span> user interfaces</span> and develop useful
+            <span> Web applications</span>. In my free time i like to play with
+            my dog, i love going outdoors, learing about the intersting world of
+            automotive. Overall I'm an active person
           </p>
         </div>
 
