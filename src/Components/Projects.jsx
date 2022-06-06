@@ -141,6 +141,42 @@ const Projects = () => {
             <img src="images/store.png" width="640" />
           </div>
         </div>
+
+        <div className="project" data-aos="fade-in" data-aos-once="true">
+          <div className="project-description">
+            <h3>Re-Design Gym App</h3>
+            <p>
+              In this project I helped re-design all the UI.The main challenge
+              was implementing the CSS files as it was an App built in .NET
+              framework
+            </p>
+
+            <ul>
+              <li>Technologies used: HTML, CSS, JavaScript, GIT</li>
+              <li>Role: Front-End Developer</li>
+              <li>Context: UI Re-Design</li>
+            </ul>
+
+            <div
+              className="project-btn"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
+              <Buttons
+                text={'View Code'}
+                href={'https://github.com/Cosmin2410/ecommerce-project'}
+              />
+            </div>
+          </div>
+
+          <div
+            className="project-image"
+            data-aos="fade-in"
+            data-aos-once="true"
+          >
+            <img src="images/store.png" width="640" />
+          </div>
+        </div>
       </div>
     </div>
   );

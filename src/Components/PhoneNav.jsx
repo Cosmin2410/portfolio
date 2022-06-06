@@ -12,7 +12,7 @@ const PhoneNav = () => {
           name="menu-open"
           id="menu-open"
         />
-        <label className="menu-open-button" for="menu-open">
+        <label className="menu-open-button" htmlFor="menu-open">
           <span className="hamburger hamburger-1"></span>
           <span className="hamburger hamburger-2"></span>
           <span className="hamburger hamburger-3"></span>
