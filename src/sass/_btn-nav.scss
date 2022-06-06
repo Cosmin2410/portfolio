@@ -6,8 +6,8 @@
     font-size: 0.8rem;
     border: 0.3em solid $blue;
     border-radius: 0.5em;
-    width: 13em;
-    height: 3em;
+    width: 15em;
+    height: 3.5em;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -82,6 +82,7 @@ $opening-angle: $pi * 2;
 a {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 %goo {
@@ -100,6 +101,7 @@ a {
   transform: translate3d(0, 0, 0);
   transition: transform ease-out 200ms;
   border: 1px solid $blue;
+  text-align: center;
 }
 .menu-open {
   display: none;
