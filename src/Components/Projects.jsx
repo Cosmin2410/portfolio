@@ -22,10 +22,12 @@ const Projects = () => {
           <div className="project-description">
             <h3>Magic Mirror</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-              laborum animi. Sit, minus odit. Reprehenderit assumenda optio in
-              ipsa corporis.
+              First big project I got as a freelancer, I learned a lot about
+              programming and how to put a website on the web. Overall
+              everything went smooth, I got to learn new things that will help
+              through my career and practice coding in a new environment.
             </p>
+            <br />
 
             <ul>
               <li>
@@ -61,9 +63,9 @@ const Projects = () => {
           <div className="project-description">
             <h3>Auto Service and Repair </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-              laborum animi. Sit, minus odit. Reprehenderit assumenda optio in
-              ipsa corporis.
+              In this project I was in charge of creating the website from the
+              ground up. This project also teached me how to talk and explain
+              programming stuff to people who are not in this industry.
             </p>
 
             <ul>
@@ -100,9 +102,10 @@ const Projects = () => {
           <div className="project-description">
             <h3>Online Store</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-              laborum animi. Sit, minus odit. Reprehenderit assumenda optio in
-              ipsa corporis.
+              This project is near and dear to my heart as i always wanted to
+              build an e-commerce website for myself. The main challenge was
+              integrating all the API's to work smooth and have a working
+              product
             </p>
 
             <ul>

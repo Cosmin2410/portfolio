@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import PhoneNav from './PhoneNav';
 
