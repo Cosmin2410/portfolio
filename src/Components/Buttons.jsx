@@ -3,7 +3,7 @@ import React from 'react';
 const Buttons = ({ text, href }) => {
   return (
     <div className="btn-component">
-      <a href={href} target="_blank" rel="noreferrer">
+      <a href={href} target="_blank" rel="noreferrer" download>
         <button className="blob-btn">
           {text}
 

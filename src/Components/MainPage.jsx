@@ -33,7 +33,10 @@ const MainPage = () => {
         </div>
 
         <div className="resume-btn" data-aos="fade-in">
-          <Buttons text={'Download Resume'} href={'#'} />
+          <Buttons
+            text={'Download Resume'}
+            href={'images/CV_Cosmin_Nae_EN.pdf'}
+          />
         </div>
         <div className="social" data-aos="fade-in" data-aos-delay="500">
           <a
