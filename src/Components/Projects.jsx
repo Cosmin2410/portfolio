@@ -142,7 +142,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project" data-aos="fade-in" data-aos-once="true">
+        {/* <div className="project" data-aos="fade-in" data-aos-once="true">
           <div className="project-description">
             <h3>Re-Design Gym App</h3>
             <p>
@@ -176,7 +176,7 @@ const Projects = () => {
           >
             <img src="images/store.png" width="640" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
