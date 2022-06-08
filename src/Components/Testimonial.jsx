@@ -29,25 +29,25 @@ const Testimonial = () => {
 
           <div className="refernce">
             <p>
-              Contact for refernce: <span>+40763 411 967</span>
+              Contact for refernce: <span>0760 332 472</span>
             </p>
           </div>
         </div>
 
         <div className="testimonial" data-aos="fade-up">
           <h3>
-            Florian from <span>Magic Mirror Website</span>
+            Alex from <span>Gym App</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            quisquam quae odit, quidem ratione odio autem, ad inventore, ab
-            dicta debitis deserunt doloremque dignissimos facere minima mollitia
-            consequuntur cupiditate facilis!
+            He's very professional, helped me with redesigning my app. Also
+            helped me better understand what I was doing wrong and was really
+            patient in explaining what I had to do next. I would definitely
+            recommend him and his skills.
           </p>
 
           <div className="refernce">
             <p>
-              Contact for refernce: <span>+40763 411 967</span>
+              Contact for refernce: <span>0731 292 803</span>
             </p>
           </div>
         </div>
