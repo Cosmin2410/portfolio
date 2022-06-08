@@ -42,9 +42,9 @@ const About = () => {
             <br />
             <br />I also love to <span> resolve programming problems </span>,
             create good looking <span> user interfaces</span> and develop useful
-            <span> Web applications</span>. In my free time i like to play with
-            my dog, i love going outdoors, learing about the intersting world of
-            automotive. Overall I'm an active person
+            <span> Web applications</span>. In my free time I like to play with
+            my dog, go outdoors and play video-games. Overall I consider myself
+            as energetic, focused and determined.
           </p>
         </div>
 
