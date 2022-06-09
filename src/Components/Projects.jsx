@@ -31,8 +31,8 @@ const Projects = () => {
 
             <ul>
               <li>
-                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Cloud
-                Computing, GitHub, GIT
+                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Digital
+                Ocean, GitHub, GIT
               </li>
               <li>Role: Front-End Developer</li>
               <li>Context: Website Creation from ground up</li>
@@ -63,15 +63,15 @@ const Projects = () => {
           <div className="project-description">
             <h3>Auto Service and Repair </h3>
             <p>
-              In this project I was in charge of creating the website from the
-              ground up. This project also teached me how to talk and explain
-              programming stuff to people who are not in this industry.
+              This project deepened my core skills with SASS and JavaScript. I
+              learned a lot about how a website should be structured and also
+              how helpful tools like Gulp really are.
             </p>
 
             <ul>
               <li>
-                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Cloud
-                Computing, GitHub, GIT
+                Technologies used: HTML, SASS, JavaScript, NPM, Gulp.js, Digital
+                Ocean, GitHub, GIT
               </li>
               <li>Role: Front-End Developer</li>
               <li>Context: Website Creation from ground up</li>
@@ -105,12 +105,13 @@ const Projects = () => {
               This project is near and dear to my heart as i always wanted to
               build an e-commerce website for myself. The main challenge was
               integrating all the API's to work smooth and have a working
-              product
+              website with features like user authentication, secure payments
+              and dynamically added products.
             </p>
 
             <ul>
               <li>
-                Technologies used: React, SASS , NPM, API, Stripe.js, Auth0,
+                Technologies used: React, SASS , NPM, API, Stripe, Auth0,
                 Commerce.js, GitHub, GIT
               </li>
               <li>Role: Front-End Developer</li>
@@ -142,13 +143,14 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* <div className="project" data-aos="fade-in" data-aos-once="true">
+        <div className="project" data-aos="fade-in" data-aos-once="true">
           <div className="project-description">
             <h3>Re-Design Gym App</h3>
             <p>
-              In this project I helped re-design all the UI.The main challenge
-              was implementing the CSS files as it was an App built in .NET
-              framework
+              In this project I helped re-designing all the user interface. I
+              divided the whole process into 3 simple steps: Research, Prototype
+              and Final Product. The main challenge was building modern looking
+              components that also offer good user interactivity.
             </p>
 
             <ul>
@@ -164,7 +166,7 @@ const Projects = () => {
             >
               <Buttons
                 text={'View Code'}
-                href={'https://github.com/Cosmin2410/ecommerce-project'}
+                href={'https://github.com/alexandrugtone/VirtualTrainer'}
               />
             </div>
           </div>
@@ -174,9 +176,9 @@ const Projects = () => {
             data-aos="fade-in"
             data-aos-once="true"
           >
-            <img src="images/store.png" width="640" />
+            <img src="images/gym.jpg" width="640" />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

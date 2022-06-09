@@ -5,7 +5,7 @@ import Skills from './Components/Skills';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Contact from './Components/Contact';
-// import Testimonial from './Components/Testimonial';
+import Testimonial from './Components/Testimonial';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <MainPage />
         <Projects />
-        {/* <Testimonial /> */}
+        <Testimonial />
         <Skills />
         <About />
         <Contact />

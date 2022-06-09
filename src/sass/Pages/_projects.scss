@@ -50,11 +50,15 @@
     .project-image {
       img {
         border-radius: 10px;
-        object-fit: cover;
         max-width: 550px;
-        height: 350px;
+        height: 400px;
+        object-fit: cover;
       }
     }
+  }
+
+  .project:last-child img {
+    height: 370px;
   }
 }
 

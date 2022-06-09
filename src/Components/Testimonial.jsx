@@ -21,10 +21,10 @@ const Testimonial = () => {
             Florian from <span>Magic Mirror Website</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            quisquam quae odit, quidem ratione odio autem, ad inventore, ab
-            dicta debitis deserunt doloremque dignissimos facere minima mollitia
-            consequuntur cupiditate facilis!
+            I highly recommend Cosmin for creating my site. He was very
+            qualified, knowing exactly how to make it run fast and also look
+            good. Also the search engine optimisation was a very helpful extra
+            benefit.
           </p>
 
           <div className="refernce">
@@ -52,7 +52,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="testimonial" data-aos="fade-up">
+        {/* <div className="testimonial" data-aos="fade-up">
           <h3>
             Florian from <span>Magic Mirror Website</span>
           </h3>
@@ -68,7 +68,7 @@ const Testimonial = () => {
               Contact for refernce: <span>+40763 411 967</span>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
