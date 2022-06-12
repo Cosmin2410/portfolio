@@ -24,11 +24,11 @@ const Skills = () => {
         <FaJsSquare />
         <FaReact />
 
-        <p className="float-skills skill-one">GitHub</p>
+        <p className="float-skills skill-one">Styled Components</p>
         <p className="float-skills skill-two">GIT</p>
         <p className="float-skills skill-three">NPM</p>
         <p className="float-skills skill-four">SASS</p>
-        <p className="float-skills skill-five">API</p>
+        <p className="float-skills skill-five">WebPack</p>
       </div>
 
       <div className="wave-bottom">
